@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEASTIFY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="./images/icons/head-icon.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <h1>FEASTIFY</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#special">Special</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <input type="text" placeholder="Search Items" name="" id="">
+        <div class="nav-icons">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-user"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="home">
+        <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">Delicious Moments, <br>Delivered Fresh</h1>
+        <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">Savor every bite — order your favorite dishes with just a click.</p>
+        <button data-aos="fade-up"data-aos-duration="1000" data-aos-delay="900" class="exp">Explore<i class="fa-solid fa-arrow-right-long"></i></button>
+    </section>
+
+    <section id="menu" class="menu">
+        <h1 id="menu-header">Our Menu</h1>
+        <p id="p1">Explore our extensive menu featuring traditional recipes passed down through generations, prepared
+            with authentic spices and incredients.</p>
+        <h1 id="sub-icon"><i class="fa-solid fa-utensils"></i> Starters</h1>
+        <div class="food-cards">
+            <div class="row r1">
+
+                <div class="col">
+                    <img src="./images/starters/Samoosa.jpg" alt="">
+                    <div class="food-details">
+                        <div class="first">
+                            <h1 id="food-title">Samosa</h1>
+                            <h1 id="food-rate">₹39</h1>
+                        </div>
+                        <div class="second">
+                            <p id="food-des">
+                                Crispy pastry filled with spiced potatoes, peas, and aromatic spices. Served with mint
+                                chutney.
+                            </p>
+                            <div class="btn-div">
+                                <button id="btn-buy">Buy Now</button>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img src="./images/starters/Paneer Tikka.jpg" alt="">
+                    <div class="food-details">
+                        <div class="first">
+                            <h1 id="food-title">Paneer Tikka</h1>
+                            <h1 id="food-rate">₹119</h1>
+                        </div>
+                        <div class="second">
+                            <p id="food-des">
+                                Marinated cottage cheese cubes, bell peppers, and onions, grilled to perfection in a
+                                tandoor oven.
+                            </p>
+                            <div class="btn-div">
+                                <button id="btn-buy">Buy Now</button>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img src="./images/starters/Chicken 65.jpg" alt="">
+                    <div class="food-details">
+                        <div class="first">
+                            <h1 id="food-title">Chicken 65</h1>
+                            <h1 id="food-rate">₹150</h1>
+                        </div>
+                        <div class="second">
+                            <p id="food-des">
+                                Deep-fried spicy chicken pieces, flavored with ginger, garlic, and aromatic spices. A
+                                South Indian specialty.
+                            </p>
+                            <div class="btn-div">
+                                <button id="btn-buy">Buy Now</button>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img src="./images/starters/Aloo Tikki.jpg" alt="">
+                    <div class="food-details">
+                        <div class="first">
+                            <h1 id="food-title">Aloo Tikki</h1>
+                            <h1 id="food-rate">₹188</h1>
+                        </div>
+                        <div class="second">
+                            <p id="food-des">
+                                Crispy potato patties topped with yogurt, tamarind chutney, and mint chutney. A popular
+                                street food.
+                            </p>
+                            <div class="btn-div">
+                                <button id="btn-buy">Buy Now</button>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="block">
+                <h1 id="sub-icon"><i class="fa-solid fa-bowl-rice"></i>Rice & Breads</h1>
+                <div class="row r2">
+                    <div class="col">
+                        <img src="./images/rice/Chicken-Biriyani.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Chicken Biryani</h1>
+                                <h1 id="food-rate">₹150</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">
+                                    Aromatic basmati rice layered with spiced chicken and saffron with special essence.
+                                    Served with raita.
+                                </p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="./images/rice/Beef-Biriyani.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Beef Biryani</h1>
+                                <h1 id="food-rate">₹160</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">
+                                    Tender beef pieces cooked with rich spices and long-grain rice with essence. Served
+                                    with raita.
+                                </p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="./images/rice/Malabar-Biriyani.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Dum Biryani</h1>
+                                <h1 id="food-rate">₹130</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">
+                                    Kerala-style biryani sealed and slow-cooked for intense flavor. A South Indian
+                                    specialty.
+                                </p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="./images/rice/Mandi-Rice.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Mandi Rice</h1>
+                                <h1 id="food-rate">₹399</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">
+                                    Arabian-style rice dish cooked with chicken, spices, and smoke-flavored perfection.
+                                </p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row r2">
+
+                    <div class="col">
+                        <img src="./images/rice/Rice-meals.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Rice Meals (Veg)</h1>
+                                <h1 id="food-rate">₹120</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">
+                                    Traditional South Indian rice meals served with variety of curries, sambar, rasam,
+                                    papad, and fresh sides.
+                                </p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="./images/rice/porotta.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Kerala Porotta</h1>
+                                <h1 id="food-rate">₹70</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">
+                                    Flaky layered flatbread, crispy outside and a softy inside porotta. A South Indian
+                                    specialty in food.
+                                </p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="./images/rice/Chappathi.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Chapathi</h1>
+                                <h1 id="food-rate">₹60</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">
+                                    Soft Indian wheat flatbread paired chapathi with a flavorful chicken curry free. A
+                                    wholesome meal.
+                                </p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="./images/rice/Garlic-naan.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Garlic Naan</h1>
+                                <h1 id="food-rate">₹70</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">
+                                    Soft and fluffy naan bread topped with garlic butter and fresh herbs. Baked fresh in
+                                    tandoor.
+                                </p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <div class="block b2">
+                <h1 id="sub-icon"><i class="fa-solid fa-utensils"></i>Grilled & Fried</h1>
+                <div class="row r2">
+                    <div class="col">
+                        <img src="./images/grilled & fried/Tandoori-chicken.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Tandoori Chicken</h1>
+                                <h1 id="food-rate">₹86</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">Clay oven-roasted chicken marinated in yogurt and spices. Served with
+                                    mint chutney.</p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="./images/grilled & fried/Shawai-chicken.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Shawai Chicken</h1>
+                                <h1 id="food-rate">₹199</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">
+                                    Middle Eastern slow-roasted chicken, juicy and flavorful. Served with Arabic rice
+                                    and salad.
+                                </p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="./images/grilled & fried/Al-Faham.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Al Faham Chicken</h1>
+                                <h1 id="food-rate">₹300</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">
+                                    Arabian-style grilled chicken marinated in smoky spices. Served with garlic sauce
+                                    and khubz.
+                                </p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="col">
+                        <img src="./images/rice/Mandi-Rice.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Mandi Rice</h1>
+                                <h1 id="food-rate">₹188</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">
+                                    Arabian-style rice dish cooked with chicken, spices, and smoke-flavored perfection.
+                                </p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                </div>
+
+            </div>
+
+            <div class="block b3">
+                <h1 id="sub-icon"><i class="fa-solid fa-bowl-food"></i>Main Course – North Indian</h1>
+                <div class="row r2">
+                    <div class="col">
+                        <img src="./images/main course (NI)/Butter-Chicken.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Butter Chicken</h1>
+                                <h1 id="food-rate">₹90</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">Tender chicken pieces in a rich, creamy tomato sauce flavored with
+                                    butter and aromatic spices.</p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="./images/main course (NI)/Paneer-butter-masala.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Paneer Masala</h1>
+                                <h1 id="food-rate">₹85</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">Cottage cheese cubes in a rich, creamy tomato gravy, flavored with
+                                    butter and fenugreek leaves.</p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="./images/main course (NI)/Dal-Makhni.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Dal Makhni</h1>
+                                <h1 id="food-rate">₹65</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">
+                                    Creamy black lentils slow-cooked with butter and cream. A rich and indulgent
+                                    vegetarian delight.
+                                </p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="./images/main course (NI)/Chole-bhature.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Chole Bhature</h1>
+                                <h1 id="food-rate">₹188</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">
+                                    Spicy chickpea curry served with fluffy and deep-fried bread. A North Indian
+                                    specialty.
+                                </p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="block b4">
+                <h1 id="sub-icon"><i class="fa-solid fa-cookie"></i>Desserts</h1>
+                <div class="row r2">
+                    <div class="col">
+                        <img src="./images/desserts/Gulab-jamun.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Gulab Jamun</h1>
+                                <h1 id="food-rate">₹86</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">Soft milk solids balls soaked in rose-flavored sugar syrup. A classic
+                                    Indian dessert.</p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="./images/desserts/Jalebi.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Jalebi</h1>
+                                <h1 id="food-rate">₹119</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">Crispy, syrup-soaked pretzel-shaped sweets with sauce. A popular Indian
+                                    street dessert.</p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="./images/desserts/Rasmalai.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Rasmalai</h1>
+                                <h1 id="food-rate">₹150</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">
+                                    Soft cottage cheese patties soaked in saffron and cardamom-flavored milk. A delicate
+                                    treat.
+                                </p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="./images/desserts/Kheer.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Kheer</h1>
+                                <h1 id="food-rate">₹188</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">
+                                    Creamy rice pudding flavored with cardamom and saffron, garnished with nuts. A
+                                    comforting dessert.
+                                </p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="block b5">
+                <h1 id="sub-icon"><i class="fa-solid fa-wine-glass"></i>Beverages</h1>
+                <div class="row r2">
+                    <div class="col">
+                        <img src="./images/beverages/Masala-chai.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Masala Chai</h1>
+                                <h1 id="food-rate">₹86</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">Spiced tea with cardamom, cinnamon, and ginger. A comforting South
+                                    Indian
+                                    beverage.</p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="./images/beverages/lassi.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Lassi</h1>
+                                <h1 id="food-rate">₹119</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">Yogurt-based sweet drink topped with saffron and pistachios. Available
+                                    in mango and rose flavors.</p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="./images/beverages/filter-coffee.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Filter Coffee</h1>
+                                <h1 id="food-rate">₹150</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">
+                                    Rich, frothy South Indian coffee served in a traditional brass tumbler. A coffee
+                                    lover's delight.
+                                </p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="./images/beverages/mango-lassi.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Mango Shake</h1>
+                                <h1 id="food-rate">₹188</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">
+                                    Thick, creamy mango milkshake made with fresh Alphonso mangoes. A summer favorite.
+                                </p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="row r3">
+                    <div class="col">
+                        <img src="./images/beverages/pepsi.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Pepsi Black</h1>
+                                <h1 id="food-rate">₹86</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">Zero-calorie cola crafted with premium ingredients and a perfectly
+                                    balanced blend of caramel notes.</p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="./images/beverages/cold-coffee.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Cold Coffee</h1>
+                                <h1 id="food-rate">₹119</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">Our premium cold brew coffee infused with vanilla, topped with velvety
+                                    cream and a delicate chocolate dust.</p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="./images/beverages/chocolate-shake.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Chocolate Shake</h1>
+                                <h1 id="food-rate">₹150</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">
+                                    Rich Belgian chocolate blended with premium ice cream, topped with fresh whipped
+                                    cream, chocolate drizzle.
+                                </p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="./images/beverages/matcha-latte.jpg" alt="">
+                        <div class="food-details">
+                            <div class="first">
+                                <h1 id="food-title">Matcha Latte</h1>
+                                <h1 id="food-rate">₹188</h1>
+                            </div>
+                            <div class="second">
+                                <p id="food-des">
+                                    Premium Japanese ceremonial grade matcha whisked to perfection and combined with
+                                    silky steamed milk.
+                                </p>
+                                <div class="btn-div">
+                                    <button id="btn-buy">Buy Now</button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="special" class="special">
+        <h1 id="special-header">Today's Specials</h1>
+        <p id="p1">Our chef’s handpicked dishes of the day — freshly made to delight your taste buds with bold flavors
+            and unique twists.</p>
+
+        <div class="row r3">
+            <div class="c3" data-aos="fade-up"data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="0">
+                <img src="./images/specials/Indian-Thali.jpg" alt="">
+                <div class="spc-details">
+                    <h1 id="spc-title">Royal Indian Thali</h1>
+                </div>
+                <div class="spc-des">
+                    <p>A grand platter featuring our signature butter chicken, paneer butter masala, dal makhani,
+                       saffron rice, assorted bread, raita, and gulab jamun. Perfect for sampling multiple flavors.</p>
+                </div>
+                <div class="spc-btn">
+                    <h1 id="spc-rate">₹165</h1>
+                    <button id="btn-buy">Buy Now</button>
+                    <i class="fa-solid fa-cart-plus"></i>
+                </div>
+            </div>
+
+            <div class="c3" data-aos="fade-up"data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="0">
+                <img src="./images/specials/seafood-platter.jpg" alt="">
+                <div class="spc-details">
+                    <h1 id="spc-title">Seafood Platter</h1>
+                </div>
+                <div class="spc-des">
+                    <p>A luxurious assortment of tandoori prawns, fish tikka, and grilled lobster, marinated in our
+                       special spice blend and cooked to perfection. Served with mint chutney and lemon wedges.</p>
+                </div>
+                <div class="spc-btn">
+                    <h1 id="spc-rate">₹165</h1>
+                    <button id="btn-buy">Buy Now</button>
+                    <i class="fa-solid fa-cart-plus"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h1 id="about-header">About Us</h1>
+        <div class="main">
+            <div class="sub-one" data-aos="fade-right" data-aos-duration="1000"data-aos-delay="90">
+                <p>Founded in 2010, Feastify began with a simple mission — to bring the soul of Indian cooking to every table, blending tradition with innovation. What started as a passion project soon became a local favorite, known for its rich flavors, vibrant atmosphere, and uncompromising commitment to quality.
+                Our culinary journey is deeply rooted in heritage. Many of our recipes have been lovingly passed down through generations, preserving time-honored methods while embracing the creativity of modern gastronomy. <br> <br> From aromatic biryanis to creamy curries, we strive to keep the essence of India alive in every bite.
+                At Feastify, our chefs are trained in traditional cooking techniques that celebrate authenticity. They meticulously handpick spices and source the freshest ingredients to ensure that every dish bursts with bold, genuine flavor — just as it would in the heart of India.
+                We believe food is more than sustenance — it's an experience. That's why every dish on our menu is crafted to tell a story, inspired by the bustling streets, home kitchens, and royal feasts of India. Our diverse offerings cater to every palate, whether you're craving something fiery, rich, comforting, or refreshing.
+                Over the years, we've grown into more than just a restaurant — we've become a destination for food lovers who seek flavor, warmth, and a sense of home. Whether you dine in or order online, Feastify promises to deliver a culinary experience that's both memorable and meaningful. <br><br>
+                <a href="#menu"><button id="gyb-btn">Grab Your Bite</button></a>
+            </p>
+
+            </div>
+            <div class="sub-two" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="90">
+                <div class="colo-1">
+                    <img src="./images/about/rest-1.jpg" alt="">
+                    <img src="./images/about/rest-4.jpg" alt="">
+                </div>
+
+                <div class="colo-2">
+                    <img src="./images/about/rest-2.jpg" alt="">
+                    <img src="./images/about/rest-3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="chefs">
+            <div class="sub1">
+                <img src="./images/about/chef.jpg" alt="" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="90">
+            </div>
+            <div class="sub2" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="90">
+                <p>"Our mission is to bring the authentic flavors of India to your table, creating an unforgettable dining experience.
+                Every dish we serve is a tribute to tradition, prepared with passion and precision. I believe food should do more than just satisfy hunger
+                 — it should stir memories, spark joy, and tell a story.
+                From handpicked spices to slow-cooked gravies, we take pride in every step of the process. When you taste our food, I want you to feel the 
+                warmth of a home-cooked meal and the richness of India’s diverse culinary heritage.
+                For us, it's not just cooking — it’s creating moments you’ll remember, one flavorful bite at a time."
+                
+                <h1 id="chef-name">- Chef Rajesh Sharma</h1>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact" data-aos="fade-up" data-aos-anchor-placement="center-bottom"data-aos-duration="900">
+        <h1>Contact Us</h1>
+        <div class="con">
+            <div class="con-sub1">
+                <p>Have questions or feedback? We'd love to hear from you. Fill out the form, <br> and our team will get back to you as soon as possible.</p>
+                <div class="con-icons">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="icn-details">
+                                <h4>Location</h4>
+                                <h5>Ernakulam, Kerala, India</h5>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <div class="icn-details">
+                                <h4>Phone</h4>
+                                <h5>+91 9867455562</h5>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <div class="icn-details">
+                                <h4>Email</h4>
+                                <h5>feastify@gmail.com</h5>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <i class="fa-regular fa-clock"></i>
+                            <div class="icn-details">
+                                <h4>Opening Hours</h4>
+                                <h5>Monday - Sunday: 11:00 AM - 10:00 PM</h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="con-sub2">
+                <input class="inp inp1" type="text" placeholder="Your Name">
+                <input class="inp inp2" type="text" placeholder="Your Email">
+                <input class="inp inp3" type="text" placeholder="Subject">
+                <textarea class="inp inp4" placeholder="Your Message" id=""></textarea>
+                <button class="btn-msg">Send Message</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h1>Connect With Us</h1>
+        <div class="social-icons" >
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-threads"></i>
+        </div>
+
+        <div class="copyright">
+            <p>© 2025 Feastify. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+<script>
+  AOS.init();
+</script>
+</html>
